@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booleans</title>
+  </head>
+  <body>
+     <script>
+     /* true
+      false
+
+      console.log(3 > 5);
+
+      console.log(5=='5.00');
+      console.log(5==='5.00');
+
+      if(false){
+        console.log('hello');
+      }else{
+        console.log('else');
+      }
+
+      const age = 15;
+
+      if(age  >= 16){
+        console.log('You can drive');
+      }else if (age >= 14){
+        console.log('You are almost there');
+      }else{
+        console.log('You cannot drive');
+      }*/
+      /*
+      console.log(true && false);// and operator
+      console.log(true || false);// or operator
+      console.log(!true);// not operator 
+      */
+
+      /*if  (0){
+        console.log('Truthy');
+      }/*Falsy values: 0, "", undefined(variable does not contain a value), null, NaN(wrong data types--calculate with srtings)
+      Any other values are truthy.*/
+
+      /*const cartQuantity = 5; 
+      if (cartQuantity){
+        console.log('Cart has products.');
+      }*/
+
+      const result = NaN ? 'truthy' : 'falsy';
+      console.log(result);
+
+      const message = false && 'hello';//This functions as a guard operator to protect the second part of the statement from executing if the first part is false.
+      console.log(message);
+
+      const currency = 'EUR' || 'USD';//This functions as a default operator.
+      console.log(currency);
+     </script> 
+  </body>
+</html>
+
+
+
+ 
